@@ -1,5 +1,5 @@
-import { Text } from 'react-native';
+import { RootPage } from '@/pages';
 
-export default function Home() {
-  return <Text>Open up App.tsx to start working on your app!</Text>;
+export default function Root() {
+  return <RootPage />;
 }
